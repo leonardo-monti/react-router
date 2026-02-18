@@ -14,10 +14,10 @@ export default function Navbar() {
                             <Link className="nav-link active" aria-current="page" to="/">Home Page</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Chi Siamo</Link>
+                            <Link className="nav-link" to="/chi-siamo">Chi Siamo</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Prodotti</Link>
+                            <Link className="nav-link" to="/prodotti">Prodotti</Link>
                         </li>
                     </ul>
                 </div>
