@@ -19,7 +19,7 @@ export default function ProductsPage() {
             <div className="row g-3">
                 {products.map((p) => (
                     <div key={p.id} className="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div className="card h-100">
+                        <div className="card h-100 shadow-sm">
                             <img src={p.image}
                                 alt={p.title}
                                 className="card-img-top p-3"
@@ -27,7 +27,6 @@ export default function ProductsPage() {
                             />
                             <div className="card-body d-flex flex-column">
                                 <h6 className="text-center">{p.title}</h6>
-                                <p className="text-center text-muted">{p.description}</p>
                                 <p className="text-center fw-bold">{p.price} €</p>
                             </div>
                         </div>

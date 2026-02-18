@@ -12,7 +12,7 @@ export default function App() {
 
       <Navbar />
 
-      <div>
+      <div className="container mt-4">
         <Routes>
 
           <Route path="/" element={<HomePage />} />
