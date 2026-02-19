@@ -3,6 +3,8 @@ import HomePage from './pages/HomePage';
 import Navbar from './components/Navbar';
 import AboutPage from './pages/AboutPage';
 import ProductsPage from './pages/ProductsPage';
+import ProductDetailPage from "./pages/ProductDetailPage";
+
 
 
 
@@ -18,6 +20,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/chi-siamo" element={<AboutPage />} />
           <Route path="/prodotti" element={<ProductsPage />} />
+          <Route path="/prodotti/:id" element={<ProductDetailPage />} />
 
         </Routes>
       </div>
